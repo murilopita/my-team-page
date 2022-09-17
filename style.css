@@ -32,11 +32,9 @@ body{
 header{
     display: flex;
     justify-content: center;
-    margin: 0 auto;
-    width: 1440px;
+    margin: 110px auto 96px auto;
+    max-width: 1440px;
     font-family: 'Poppins', sans-serif;
-    margin-top: 110px;
-    margin-bottom: 96px;
 
     border: 1px solid red; /* border guide */
 }
@@ -75,7 +73,7 @@ header h1{
 /* Container */
 
 main{
-    width: 1440px;
+    max-width: 1440px;
     height: 100vh;
     display: flex;
     margin: 0 auto;
@@ -103,38 +101,40 @@ main{
 
 img{
     width: 230px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
+
 
 /* Jobs Infos */
 
-img::before{
-    content: "Product owner";
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-
-    text-transform: uppercase;
-
-    transform: rotate(90deg);
-}
-
-
-
-article p{
+article {
+    display: flex;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
 }
 
+figcaption{
+    display: flex;
+    padding-left: 10px;
+
+    color: #000000;
+    writing-mode: vertical-rl;
+    letter-spacing: .1rem;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
 
 /* Footer */
 
 footer{
-    width: 1440px;
+    max-width: 1440px;
     height: auto;
 
     display: flex;
