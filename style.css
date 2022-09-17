@@ -1,0 +1,165 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600;700&display=swap');
+
+/* Font Family 
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'PT Serif', serif;
+
+*/
+
+
+/* Reset CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* Header Title */
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1440px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 110px;
+    margin-bottom: 96px;
+
+    border: 1px solid red; /* border guide */
+}
+
+header h1{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    margin-right: 215px;
+}
+
+
+/* Header Sub-Title */
+
+.info-text{
+    
+}
+
+.info-text h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.info-text p{
+    width: 439px;
+    height: 87px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+/* Container */
+
+main{
+    width: 1440px;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+
+
+    border: 1px solid red; /* border guide */
+}
+
+
+/* Profile Images */
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 100px;
+
+    margin: 0 auto;
+    
+}
+
+#position{
+    padding-top: 100px;
+}
+
+img{
+    width: 230px;
+    margin-bottom: 15px;
+}
+
+/* Jobs Infos */
+
+img::before{
+    content: "Product owner";
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    text-transform: uppercase;
+
+    transform: rotate(90deg);
+}
+
+
+
+article p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+/* Footer */
+
+footer{
+    width: 1440px;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 115px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 1px solid red; /* border guide */
+}
+
+footer p{
+    color:#A9A9A9;    ;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+footer p span{
+    font-weight: 700;
+}
