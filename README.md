@@ -65,7 +65,7 @@ So, for this challenge I try to make with semantic HTML and some parts I used fl
 
 For Mobile version I changed the value of element: 'grid-template-columns' to fix the members' area in the screen.
 
-<img src="./print.png">
+<img src="./printscreen.png">
 
 <br>
 
